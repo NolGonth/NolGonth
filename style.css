@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #ade2e8);
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 5px solid #0073e6;
+}
+
+.header-left h1 {
+    font-size: 2.5em;
+    color: #2a7a2a;
+}
+
+.header-right img {
+    width: 120px;
+}
+
+/* Qualités */
+.qualities {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* Parcours scolaire */
+.school-path, .experience, .travel {
+    margin: 30px;
+}
+
+.school-path h2, .experience h2, .travel h2 {
+    color: #00a3dd;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logos img {
+    width: 120px;
+}
+
+/* Expériences */
+.experience {
+    text-align: center;
+}
+
+.experience p {
+    font-size: 1.1em;
+}
+
+/* Voyage */
+.travel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.travel-item {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.travel-item img {
+    width: 80px;
+    margin-top: 10px;
+}
